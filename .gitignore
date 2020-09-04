@@ -1,3 +1,6 @@
 nimcache/
 nimblecache/
 htmldocs/
+.vscode/*
+spinim.exe
+spinim.pyd
