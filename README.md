@@ -83,4 +83,3 @@ echo spin("{Simple|Easy} {example|demonstration}")
 ##### Inputs:
 
 * string: The sting to parse, make sure it is a literal string if you use \'s within the string.
-* seed: (Optional) if a seed for the random function is desired a seed can be set (Default no seed).
