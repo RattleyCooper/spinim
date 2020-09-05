@@ -53,6 +53,13 @@ Spintax replaces braces (also known as curly brackets, {}) containing text with 
   - This is nested spin syntax
   - This is nested spintax
 
+# Installation
+
+For python, you will have to compile the pyd for your system using nim/nimpy 
+
+https://github.com/yglukhov/nimpy
+
+I am working on a nimble release for nim users.  For now it should be easy enough to copy into a project.  Sorry!
 
 # How to use this module
 
