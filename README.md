@@ -28,12 +28,6 @@ Spintax replaces braces (also known as curly brackets, {}) containing text with 
 * Hello this is spintax
 * Hi this is spintax!
 
-##### Example:
-
-    r"""{Hey|Hello|Hi}{,|} this is {spin syntax|spintax}{.|!|}
-    To use {this module|spintax} enclose \{your|words\} in {those brackets|braces} and use {a \||the \||a pipe (\|)} to separate them
-    """
-
 ##### Can produce:
 
  - Hi this is spintax!
