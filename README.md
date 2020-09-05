@@ -3,10 +3,10 @@
 
 ### Key differences
 
-`spinim` is roughly 43% faster than the `spintax` module implemented in `python`.
+`spinim` is roughly 43% faster than the `spintax` module implemented in pure `python`.
 
 # spintax
-A Nim/Python module for parsing spintax; unlike any other module this also allows both nested spintax.
+A Nim/Python module for parsing spintax; unlike other modules, this also allows nested spintax.
 
 # What is spintax
 Spintax (also known as spin syntax) is a way to create random strings that have the same or similar meaning.
