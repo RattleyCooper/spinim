@@ -3,7 +3,7 @@
 
 ### Key differences
 
-`spinim` is roughly 43% faster than the `spintax` module implemented in pure `python`.
+`spinim` is roughly 75% faster than the `spintax` module implemented in pure `python`.  You can spin a lot more text/articles, in a shorter amount of time, freeing up cpu cycles for more important things (very important for things like video games).
 
 # spintax
 A Nim/Python module for parsing spintax; unlike other modules, this also allows nested spintax.
@@ -53,13 +53,15 @@ Spintax replaces braces (also known as curly brackets, {}) containing text with 
   - This is nested spin syntax
   - This is nested spintax
 
-# Installation
+# Installation / Compiling
 
-For python, you will have to compile the pyd for your system using nim/nimpy 
+For python, you will have to compile the pyd for the target system using nim/nimpy 
+
+`nim c --app:lib --out:spinim.pyd spinim`
 
 https://github.com/yglukhov/nimpy
 
-I am working on a nimble release for nim users.  For now it should be easy enough to copy into a project.  Sorry!
+I am working on a nimble release for nim users.  For now it should be easy enough to copy the small function into a project.  Sorry, I am very new to nim and am still learning a lot!
 
 # How to use this module
 
