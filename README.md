@@ -3,7 +3,7 @@
 
 ### Key differences
 
-`spinim` is up to 75% faster than the `spintax` module implemented in pure `python`.  You can spin a lot more text/articles, in a shorter amount of time, freeing up cpu cycles for more important things (very important for things like video games).
+`spinim` is up to 75% faster than the `spintax` module implemented in pure `python`(based on my not so scientific tests).  You can spin a lot more text/articles, in a shorter amount of time, freeing up cpu cycles for more important things (very important for things like video games).
 
 # spintax
 A Nim/Python module for parsing spintax; unlike other modules, this also allows nested spintax.
