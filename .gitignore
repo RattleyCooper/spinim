@@ -2,9 +2,6 @@ nimcache/
 nimblecache/
 htmldocs/
 .vscode/*
-spinim.exe
 spinim.pyd
 spintax.py
-t.exe
-t.nim
 pcre64.dll
